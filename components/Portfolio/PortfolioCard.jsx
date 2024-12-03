@@ -47,6 +47,15 @@ const PortfolioCard = ({ data }) => {
                 <p className="text-xs text-LightGray font-normal">
                     {data?.projectDetail}
                 </p>
+                <p className="text-xs text-Snow font-normal underline">
+                    <a
+                            href={data?.gitUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            GitHub Repo
+                        </a>
+                </p>
                 <div className="text-sm flex flex-wrap gap-3 py-2">
                     {data.technologiesUsed.map((index, key) => <Badge key={key} title={index.tech} />)}
                 </div>
