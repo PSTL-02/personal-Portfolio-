@@ -1,22 +1,37 @@
 const portfolio = [
-    //{
-    //     id: 0,
-    //     projectName: " ",
-    //     url: "",
-    //     image: "",
-    //     projectDetail: " ",
-    //     technologiesUsed: [
-    //         {
-    //             tech: ""
-    //         },
-    //         {
-    //             tech: ""
-    //         },
-    //         {
-    //             tech: ""
-    //         },
-    //     ]
-    // },
+    {
+        id: 0,
+        projectName: "Community Cat Coalition",
+        url: "https://cat-coalition.vercel.app",
+        image: "projects/cat-coalition-mockup.png",
+        projectDetail: "This was made in a academic setting. This is a non profit origination website redesign working with a sudo client (AKA our tutor) to give us real world experience. ",
+        technologiesUsed: [
+            {
+                tech: "React"
+            },
+            {
+                tech: "WordPress"
+            },
+            {
+                tech: "CSS"
+            },
+        ]
+    },
+    {
+        id: 0,
+        projectName: "Cat Coalition Custom Theme",
+        url: "https://github.com/PSTL-02/Cat-Coalition-custom-theme",
+        image: "projects/backend.png",
+        projectDetail: "This was made in a academic setting. TThis is the custom them for my Community Cat Coalition site on wordpress ",
+        technologiesUsed: [
+            {
+                tech: "PHP"
+            },
+            {
+                tech: "CSS"
+            },
+        ]
+    },
     {
         id: 0,
         projectName: "Platypus MarketPlace",

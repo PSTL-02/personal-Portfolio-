@@ -35,8 +35,6 @@ export const TECH_STACK = [
   'NodeJS',
   'CSS',
   'SCSS',
-  'TailwindCSS',
-  'Next UI',
   'REST API',
   'MongoDB',
   'MySQL',
